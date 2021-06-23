@@ -54,10 +54,6 @@ version = "=0.4.8"
 package = "arrayvec"
 version = "=0.7.0"
 
-[dependencies.async_trait]
-package = "async-trait"
-version = "=0.1.50"
-
 [dependencies.atty]
 package = "atty"
 version = "=0.2.14"
@@ -810,12 +806,8 @@ version = "=0.10.2"
 
 [dependencies.serde]
 package = "serde"
-version = "=1.0.126"
-features = ["derive", "rc"]
-
-[dependencies.serde_derive]
-package = "serde_derive"
-version = "=1.0.126"
+version = "1"
+features = ["derive"]
 
 [dependencies.serde_json]
 package = "serde_json"
@@ -897,7 +889,7 @@ version = "=2.4.0"
 
 [dependencies.syn]
 package = "syn"
-version = "=1.0.72"
+version = "=1.0.57"
 features = ["extra-traits", "fold", "full", "visit", "visit-mut"]
 
 [dependencies.synstructure]
@@ -1110,3 +1102,11 @@ version = "=0.16.1"
 [dependencies.yaml_rust]
 package = "yaml-rust"
 version = "=0.4.5"
+
+[dependencies.near_sdk_macros]
+package = "near-sdk-macros"
+version = "=3.1.0"
+
+[dependencies.near_sdk]
+package = "near-sdk"
+version = "=3.1.0"
